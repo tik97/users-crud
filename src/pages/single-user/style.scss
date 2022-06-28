@@ -1,0 +1,45 @@
+.single-user-wrapper {
+  .user-data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .name {
+      font-weight: bold;
+      width: 300px;
+      margin-right: 25px;
+    }
+
+    .value {
+      width: 300px;
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+
+    .remove, .edit {
+      width: 150px;
+      border-radius: 6px;
+      padding: 5px;
+      outline: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .remove {
+      background-color: red;
+      border: 1px solid #570202;
+    }
+
+    .edit {
+      margin-right: 25px;
+      background-color: green;
+      border: 1px solid #013801;
+    }
+  }
+}

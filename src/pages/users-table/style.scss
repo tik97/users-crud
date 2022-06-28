@@ -1,0 +1,53 @@
+.users-table-wrapper {
+  table {
+    margin-top: 15px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .create-btn {
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .remove, .edit {
+      width: 150px;
+      border-radius: 6px;
+      padding: 5px;
+      outline: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .remove {
+      background-color: red;
+      border: 1px solid #570202;
+    }
+
+    .edit {
+      background-color: green;
+      border: 1px solid #013801;
+    }
+  }
+}
